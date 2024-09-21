@@ -12,7 +12,7 @@ const Navbar = () => {
           </h1>
         </div>
         <div className="right_item flex items-center gap-8">
-        <ul className="flex items-center gap-4 text-md font-medium">
+        <ul className="flex items-center gap-4 text-md font-medium cursor-pointer">
           <li>About</li>
           <li>Pricing</li>
           <li>Community</li>
