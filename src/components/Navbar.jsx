@@ -12,14 +12,17 @@ const Navbar = () => {
           </h1>
         </div>
         <div className="right_item flex items-center gap-8">
-        <ul className="flex items-center gap-4 text-md font-medium cursor-pointer">
-          <li>About</li>
-          <li>Pricing</li>
-          <li>Community</li>
-        </ul>
-          <button className="text-md font-medium bg-black/80 text-white/70 px-4 py-2 rounded-md duration-300 hover:scale-105">
-            Contact Us
-          </button>
+          <ul className="flex items-center gap-4 text-md font-medium cursor-pointer">
+            <li>About</li>
+            <li>Pricing</li>
+            <li>Community</li>
+            <li>Contact us</li>
+          </ul>
+          <a href="/signup">
+            <button className="text-md font-medium bg-black/80 text-white/70 px-4 py-2 rounded-md duration-300 hover:scale-105">
+              SignUp/Login
+            </button>
+          </a>
         </div>
       </div>
     </div>

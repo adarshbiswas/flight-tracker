@@ -1,16 +1,9 @@
 import { createContext } from "react";
 
-
 const GlobalContext = createContext();
 
-const baseURL = "https://api.aviationstack.com/v1/flights"
+const baseURL = "https://api.aviationstack.com/v1/flights";
 
-
-export const GlobalContextProvider = ({children}) => {
-
-
-
-    return <GlobalContext.Provider >
-    {children}
-    </GlobalContext.Provider>
-}
+export const GlobalContextProvider = ({ children }) => {
+  return <GlobalContext.Provider>{children}</GlobalContext.Provider>;
+};

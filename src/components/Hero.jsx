@@ -18,9 +18,9 @@ const Hero = () => {
         alt=""
       />
 
-      <div className="landing absolute top-[25%] flex flex-col items-center gap-10">
+      <div className="landing absolute top-[25%] flex flex-col items-center gap-10  ">
         <div className="content w-full text-center flex flex-col items-center gap-6">
-          <h1 className=" text-6xl">Live Flight Tracking Network</h1>
+          <h1 className="text-6xl">Live Flight Tracking Network</h1>
           <p className="text-xl w-[70%]">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
             architecto voluptatem dicta sit optio deleniti natus tempora vero

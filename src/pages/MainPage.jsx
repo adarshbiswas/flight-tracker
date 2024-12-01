@@ -32,10 +32,10 @@ const MainPage = () => {
     };
 
     fetchFlights();
-    
-    // const interval = setInterval(fetchFlights, 60000); // Update every 1 minute
 
-    // return () => clearInterval(interval); // Cleanup interval on unmount
+    const interval = setInterval(fetchFlights, 60000); // Update every 1 minute
+
+    return () => clearInterval(interval); // Cleanup interval on unmount
   }, []);
 
   return (
